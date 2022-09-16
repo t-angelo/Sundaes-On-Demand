@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Row } from "react-bootstrap/Row";
+import Row from "react-bootstrap/Row";
 import ScoopOption from "./ScoopOption";
 
 export default function Options({ optionType }) {
